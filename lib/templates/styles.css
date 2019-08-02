@@ -333,4 +333,13 @@ tbody tr:nth-child(even) {
 
 .passed {
   color: green;
+<<<<<<< HEAD
 }
+=======
+}
+
+.skipped,
+.pending {
+  background-color: var(--selection);
+}
+>>>>>>> Парсер

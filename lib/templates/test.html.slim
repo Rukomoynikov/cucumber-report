@@ -2,7 +2,14 @@ h3 = locals[:name]
 
 div
   - locals[:elements].each do |test|
+<<<<<<< HEAD
     h4 #{ test[:keyword] } 
     ul
       - test[:steps].each do |step|
         li class=(step['result']['status']) #{ step['keyword'] } #{ step['name'] }
+=======
+    h4 #{ test[:keyword] } : #{ test[:name] }
+    ul
+      - test[:steps].each do |step|
+        li class=(step['result']['status']) #{ step['keyword'] } #{ step['name'] }
+>>>>>>> Парсер
