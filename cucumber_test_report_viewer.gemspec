@@ -8,6 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Maksim Rukomoynikov"]
   spec.email         = ["m.rukomoynikov@etpgpb.ru"]
   spec.license       = "MIT"
+  spec.summary       = "Utility for creation static sites based on cucumber report"
+  spec.description   = "Utility for creation static sites based on cucumber report"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
@@ -21,4 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "byebug"
+  spec.add_development_dependency "slim"
 end

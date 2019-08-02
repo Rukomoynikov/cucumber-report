@@ -1,0 +1,5677 @@
+[
+  {
+    "uri": "features/views/Home/UserNavigation.feature",
+    "id": "страница-личные-данные",
+    "keyword": "Функционал",
+    "name": "Страница Личные данные",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21816
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8149
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20599
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32124
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1486013294
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 714335716
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;переход-на-страницу-\"личные-данные\"-из-меню-пользователя;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Переход на страницу \"Личные данные\" из меню пользователя",
+        "description": "",
+        "line": 20,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 9
+          },
+          {
+            "name": "@correct",
+            "line": 10
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"nimluzospa@desoz.com\" и \"Test1234\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251379362
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"Тест\" и фамилию \"Тестов\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1790658313
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает на имя \"Тест\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91313981
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажал 'Личные данные'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267626608
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "перешел на страницу 'Личные данные'",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262635725
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35410
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80119088
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15214
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7532
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13822
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7550
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82416613
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241923779
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;переход-на-страницу-\"личные-данные\"-из-меню-пользователя;пользователи;3",
+        "keyword": "Структура сценария",
+        "name": "Переход на страницу \"Личные данные\" из меню пользователя",
+        "description": "",
+        "line": 21,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 9
+          },
+          {
+            "name": "@correct",
+            "line": 10
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"GGG\" и \"Test1234\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236056632
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"sss\" и фамилию \"sss\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5768623762
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает на имя \"sss\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60167374
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажал 'Личные данные'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118259736
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "перешел на страницу 'Личные данные'",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174243361
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32282
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55123456
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18236
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12076
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16850
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6386
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70263683
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254809668
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;переход-на-страницу-\"личные-данные\"-из-меню-пользователя;пользователи;4",
+        "keyword": "Структура сценария",
+        "name": "Переход на страницу \"Личные данные\" из меню пользователя",
+        "description": "",
+        "line": 22,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 9
+          },
+          {
+            "name": "@correct",
+            "line": 10
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"fyrfuxj@drope.ml\" и \"Test1234\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257905408
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"Иван\" и фамилию \"Иванов\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1545161058
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает на имя \"Иван\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85713135
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажал 'Личные данные'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324466545
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "перешел на страницу 'Личные данные'",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276367857
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18445
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19390137
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13900
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11152
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5271
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72006209
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234712229
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;переход-на-страницу-\"данные-организации\"-из-меню-пользователя;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Переход на страницу \"Данные организации\" из меню пользователя",
+        "description": "",
+        "line": 34,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 24
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"nimluzospa@desoz.com\" и \"Test1234\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238292978
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"Тест\" и фамилию \"Тестов\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1987903582
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает на имя \"Тест\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55411172
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажал 'Данные организации'",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116645914
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "перешел на страницу 'Данные организации'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191097504
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19196
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18661404
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14226
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11190
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5040
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58774154
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246988287
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;переход-на-страницу-\"данные-организации\"-из-меню-пользователя;пользователи;3",
+        "keyword": "Структура сценария",
+        "name": "Переход на страницу \"Данные организации\" из меню пользователя",
+        "description": "",
+        "line": 35,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 24
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"GGG\" и \"Test1234\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234184066
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"sss\" и фамилию \"sss\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1924184411
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает на имя \"sss\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54139585
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажал 'Данные организации'",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109181613
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "перешел на страницу 'Данные организации'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184686329
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24244
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43725171
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14962
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11187
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5054
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292869897
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 178357214
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;переход-на-страницу-\"данные-организации\"-из-меню-пользователя-в-режиме-редактирования;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Переход на страницу \"Данные организации\" из меню пользователя в режиме редактирования",
+        "description": "",
+        "line": 48,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 37
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"nimluzospa@desoz.com\" и \"Test1234\"",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 294633554
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"Тест\" и фамилию \"Тестов\"",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2123755353
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает на имя \"Тест\"",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56311412
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажал 'Изменить'",
+            "line": 42,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99397549
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "перешел на страницу 'Данные организации'",
+            "line": 43,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289220853
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "может отредактировать данные",
+            "line": 44,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158175423
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23897
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22518458
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/views/HomeNotAuth/HomeNotAuth.feature",
+    "id": "страница-для-неавторизованных-пользователей",
+    "keyword": "Функционал",
+    "name": "Страница для неавторизованных пользователей",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14193
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6551
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13058
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4474
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63368762
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-для-неавторизованных-пользователей;регистрация-пользователя;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Регистрация пользователя",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 8
+          },
+          {
+            "name": "@correct",
+            "line": 9
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на зарегистрироваться",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186640281
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "пользователь переходит на страницу регистрации",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128375399
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит фамилию \"Тестов\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89228968
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит имя \"Тест\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68847358
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит отчество \"Тестович\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96101296
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит номер \"+7 999 999-99-99\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89124567
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит почту \"$user_email\"",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1302854029
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит пароль \"1xP5dRTQ7\"",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55282295
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит подтверждение пароля \"1xP5dRTQ7\"",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59785066
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101801274
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит попап об успешной регистрации",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 638596328
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19991
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17914086
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15886
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12844
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5621
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65192292
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-для-неавторизованных-пользователей;авторизация-без-активации-учетной-записи;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Авторизация без активации учетной записи",
+        "description": "",
+        "line": 35,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@fail",
+            "line": 27
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257361420
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "заполнил форму входа \"$user_email\" и \"1xP5dRTQ7\"",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285689713
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит сообщение неуспешной авторизации",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152147741
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18152
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17695975
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13880
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11506
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5479
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49436827
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-для-неавторизованных-пользователей;активация-учетной-записи-пользователя;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Активация учетной записи пользователя",
+        "description": "",
+        "line": 45,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 37
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь получает письмо на почту \"$user_email\"",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 723099799
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит по ссылке для подтверждения",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195281193
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит сообщение об успешной активации",
+            "line": 41,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174152378
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45362
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17786460
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 5,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14555
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11069
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5023
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51385682
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-для-неавторизованных-пользователей;авторизация-после-активации-учетной-записи-пользователя;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Авторизация после активации учетной записи пользователя",
+        "description": "",
+        "line": 55,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@correct",
+            "line": 47
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 49,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518506008
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "заполнил форму входа \"$user_email\" и \"1xP5dRTQ7\"",
+            "line": 50,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415160859
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"Тест\" и фамилию \"Тестов\"",
+            "line": 51,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1542576393
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28181
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20741848
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/views/Profile/EditProfile.feature",
+    "id": "страница-личные-данные",
+    "keyword": "Функционал",
+    "name": "Страница Личные данные",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13721
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6996
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13194
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4934
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65143681
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь кликает на 'Вход в систему ЭТП ГПБ'",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 533987340
+            }
+          }
+        ]
+      },
+      {
+        "id": "страница-личные-данные;редактирование-профиля-пользователя;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Редактирование профиля пользователя",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 8
+          },
+          {
+            "name": "@correct",
+            "line": 10
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь авторизовался \"nimluzospa@desoz.com\" и \"Test1234\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Home/UserNavigation.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 451792510
+            }
+          },
+          {
+            "keyword": "То ",
+            "name": "видит имя \"Тест\" и фамилию \"Тестов\"",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1891378508
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "открыл личную страницу",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Profile/EditProfile.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75536879
+            }
+          },
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь нажал 'Редактировать'",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Profile/EditProfile.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1355238176
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "изменил отчество",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Profile/EditProfile.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 153354631
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "данные о пользователе обновятся",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Profile/EditProfile.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 464632955
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вернул отчество на предыдущее значение",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Profile/EditProfile.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180657155
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "пользователь увидит обновленные данные",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Profile/EditProfile.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466607655
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18851
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 411042830
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/views/Registration/RegistrationContragent.feature",
+    "id": "регистрация-контрагента",
+    "keyword": "Функционал",
+    "name": "Регистрация контрагента",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18265
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8480
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16247
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7655
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 659182886
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;2",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 46,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10999649772
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1444829636
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Юридическое лицо\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 395957595
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Резидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274116416
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82054868
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Поставщик\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139566825
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 327589172
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182876071
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113110548
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125578613
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107324628
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 220894623
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174104115
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85885825
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112430651
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243365820
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131246243
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65128721
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66892364
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83352046
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71714643
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109360413
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 901875640
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105634929
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82312213
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95756571
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239084250
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27048
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"false\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23168
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206860860
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119363968
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2346133076
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26397
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211253727
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21514
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11703
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21993
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9775
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127722135
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;3",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 47,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11616330995
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1245040724
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Юридическое лицо\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 322788329
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Нерезидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226909651
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84941530
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Заказчик, Организатор\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93627901
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297855697
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36397
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121922608
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221328539
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31708
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11763
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164538682
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84829401
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25536
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61257084
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88538000
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69622480
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65995068
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70324357
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68070283
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24945
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11809
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78304802
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69729622
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 245040058
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95396753
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39167113
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"true\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46102
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65590801
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 115072483
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2406302729
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23874
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73216216
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15048
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7595
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15921
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5376
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58111203
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;4",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 48,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10775180780
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1372932397
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Индивидуальный предприниматель\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193709022
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Нерезидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218597444
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88385120
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Поставщик\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78353074
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284756685
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33584
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118375616
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210539931
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22026
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8011
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167321155
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90491021
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22617
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63766991
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88814478
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64347186
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66422790
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69779608
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62556607
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 488181949
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 933813473
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99407660
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77038095
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290303728
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166634166
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39769748
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"false\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31865
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65549622
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121352722
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2052138668
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25306
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173349120
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14518
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28093
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12755
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5277
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89061690
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;5",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 49,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10747500260
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1337934969
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Индивидуальный предприниматель\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570744150
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Резидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177444826
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80791482
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Заказчик, Организатор\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156131323
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296445809
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185383354
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107392047
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246077515
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21615
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258081234
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179845299
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85375059
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106352807
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61717813
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83243187
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61776763
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243457308
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103261989
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59806314
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25791
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8974
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73774624
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65154568
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84347298
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61573804
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22468
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"true\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057884181
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70851040
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116824658
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2044868062
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32888
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29743694
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13937
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7417
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12938
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5167
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62079279
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;6",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 50,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10658283071
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1258241957
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Физическое лицо\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215350410
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Резидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152513058
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21738
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Поставщик\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79039394
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 279238152
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22423
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7377
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124868144
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25173
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13281
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159728702
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80946059
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36842
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60533114
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98152176
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61036449
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65522251
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64407256
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60010356
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86300077
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1877001982
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 98290058
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69775179
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82153663
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21615
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7748
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"true\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1099182055
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72261284
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114508918
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1738418751
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23910
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163956236
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13468
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6417
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11389
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5353
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59812154
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;7",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 51,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10899131546
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1403276681
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Физическое лицо\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234136553
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Резидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151306824
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23776
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Заказчик, Организатор\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87874282
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262648613
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34312
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21324
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506811935
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32640
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22175
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162144389
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78200846
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30550
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61444864
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80837892
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61667999
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64935061
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284294057
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102549722
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22355
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7900
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68681502
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64700279
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75211691
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22134
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9136
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"true\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668125330
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 264610862
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150155271
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2066851119
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49563
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28811715
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13850
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6416
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11366
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5070
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59074956
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;8",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 52,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10758214369
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1339060764
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Физическое лицо\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365773244
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Резидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152441448
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29699
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Поставщик\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75631350
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285203418
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46262
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13279
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132905555
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25769
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35693
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163060178
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83286183
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26537
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62506298
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80913435
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73038413
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67538658
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67157699
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61425402
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86018367
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 478120750
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173844724
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76981201
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84119794
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21674
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8455
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"false\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16502
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59202598
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117258391
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1894392522
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29688
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30838593
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Предыстория",
+        "name": "",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14018
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6721
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12164
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5001
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь открыл главную страницу",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56409246
+            }
+          }
+        ]
+      },
+      {
+        "id": "регистрация-контрагента;регистрация-контрагента;пользователи;9",
+        "keyword": "Структура сценария",
+        "name": "Регистрация контрагента",
+        "description": "",
+        "line": 53,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@javascript",
+            "line": 7
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Допустим ",
+            "name": "пользователь зарегистрировался в системе \"$user_email\"",
+            "line": 9,
+            "match": {
+              "location": "features/support/helper.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11873999145
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "переходит на страницу регистрации контрагента",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1250764911
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает тип участника \"Юридическое лицо\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179534046
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит тип контрагента \"Нерезидент РФ\"",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218403351
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит свою должность в компании",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97133891
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбирает свою роль в системе \"Заказчик, Организатор\"",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96971993
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Полное наименование",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307302442
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Организационно-правовую форму",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25770
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Краткое наименование",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147977545
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ИНН или Гос. регистрационный номер и TIN",
+            "line": 18,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206239629
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит КПП",
+            "line": 19,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22368
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит ОГРН",
+            "line": 20,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8692
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит \"$user_email\"",
+            "line": 21,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181433565
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Контактный телефон",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89251623
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь указывает дату постановки на учет",
+            "line": 23,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29402
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит страну",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103496256
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Почтовый индекс",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88675549
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Регион, область",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:96"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65110809
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Населенный пункт",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66932620
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Улицу",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68902579
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Дом",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63008939
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "заполняет 'Предлагаемая продукция и услуги'",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22050
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь выбрал ОКПД-2",
+            "line": 31,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8568
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Фамилию руководителя",
+            "line": 32,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116253768
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Имя руководителя",
+            "line": 33,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120940937
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Отчество руководителя",
+            "line": 34,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86545637
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "пользователь вводит Должность руководителя",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60248133
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "прикрепляет согласие с Регламентом",
+            "line": 36,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37509351
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "вводит банковские реквизиты \"false\"",
+            "line": 37,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:153"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35166
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает зарегистрироваться",
+            "line": 38,
+            "match": {
+              "location": "features/step_definitions/views/HomeNotAuth/HomeNotAuth.rb:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74551915
+            }
+          },
+          {
+            "keyword": "Тогда ",
+            "name": "видит заявление на регистрацию",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:165"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118706952
+            }
+          },
+          {
+            "keyword": "И ",
+            "name": "нажимает 'Подтвердить'",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/views/Registration/RegistrationContragent.rb:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2079568378
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-screenshot-1.0.23/lib/capybara-screenshot/cucumber.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23115
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.26.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36172601
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
