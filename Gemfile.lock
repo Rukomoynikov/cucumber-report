@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     cucumber_test_report_viewer (0.1.0)
+      slim
 
 GEM
   remote: https://rubygems.org/
@@ -22,11 +23,11 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.2)
-    slim (3.0.9)
+    slim (4.0.1)
       temple (>= 0.7.6, < 0.9)
-      tilt (>= 1.3.3, < 2.1)
-    temple (0.8.0)
-    tilt (2.0.8)
+      tilt (>= 2.0.6, < 2.1)
+    temple (0.8.1)
+    tilt (2.0.9)
 
 PLATFORMS
   ruby
@@ -37,7 +38,6 @@ DEPENDENCIES
   cucumber_test_report_viewer!
   rake (~> 10.0)
   rspec (~> 3.0)
-  slim
 
 BUNDLED WITH
-   1.16.2
+   1.17.2
