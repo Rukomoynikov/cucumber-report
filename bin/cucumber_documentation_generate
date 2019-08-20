@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require "cucumber_test_report_viewer"
+
+
+CucumberTestReportViewer::Parser.parse ARGV[0]
