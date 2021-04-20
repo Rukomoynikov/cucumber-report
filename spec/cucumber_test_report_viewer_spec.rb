@@ -1,9 +1,9 @@
-RSpec.describe CucumberTestReportViewer do
-  it "has a version number" do
-    expect(CucumberTestReportViewer::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+RSpec.describe CucumberTestReportViewer::Parser do
+  context 'success' do
+    describe '.parse' do
+      it "throw an error when provided file not exist" do
+        CucumberTestReportViewer::Parser.parse('spec/fixtures/elk.json')
+      end
+    end
   end
 end
